@@ -156,7 +156,7 @@ for(let i=0; i<languagebtn.length;i++){
             document.querySelector('.spanwrap1').classList.add('active');
             for(let j = 0 ; j <bannerimgs.length ; j++){
                 bannerimgs.forEach((el, j) => {
-                    el.src = `../img/banner/banner${j}kor.png`
+                    el.src = `../img/banner/banner${j}kor.webp`
                     console.log(j);
                 })
             }
@@ -170,7 +170,7 @@ for(let i=0; i<languagebtn.length;i++){
             document.querySelector('.spanwrap1').classList.remove('active');
             for(let k = 0 ; k <bannerimgs.length ; k++){
                 bannerimgs.forEach((el, k) => {
-                    el.src = `../img/banner/banner${k}eng.png`
+                    el.src = `../img/banner/banner${k}eng.webp`
                 })
             }
         } else {
