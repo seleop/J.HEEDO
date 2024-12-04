@@ -1274,6 +1274,9 @@ footer .footer-inner .footer-inner-upper .footer-search .footer-search-title h2 
   font-size: 16px;
   color: #F5F5F5;
 }
+footer .footer-inner .footer-inner-upper .footer-search .footer-search-title h2.active {
+  font-family: "pretendard";
+}
 footer .footer-inner .footer-inner-upper .footer-search form {
   position: relative;
   display: flex;
