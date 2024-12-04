@@ -57,7 +57,7 @@ body {
 }
 
 header {
-  width: 100%;
+  margin: 0 auto;
   height: 152px;
 }
 header .header1 {
@@ -69,7 +69,8 @@ header .header1 {
   background-color: #F5F5F5;
 }
 header .header1 .header1__inner {
-  width: 1728px;
+  width: 100%;
+  padding: 0 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -122,8 +123,9 @@ header .header2.active {
   z-index: 999;
 }
 header .header2 .header2__inner {
-  width: 1728px;
+  width: 100%;
   height: 100%;
+  padding: 0 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
