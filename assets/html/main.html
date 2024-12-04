@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>J.HEEDO</title>
+        <link rel="stylesheet" href="../css/main.css" />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    </head>
+    <body>
+        <div id="container">
+            <div class="remote">
+                <div class="maincontroller dotbtn">
+                    <i class='bx bx-dots-horizontal active remotemainicon'></i>
+                    <i class='bx bx-x remotemainicon'></i>
+                </div>
+                <div class="controller gotopbtn">
+                    <i class='bx bx-chevron-up' ></i>
+                </div>
+                <div class="controller gonewbtn">
+                    <p>NEW</p>
+                </div>
+                <div class="controller gohotbtn">
+                    <p>HOT</p>
+                </div>
+                <div class="controller gobottombtn">
+                    <i class='bx bxs-message-rounded'></i>
+                </div>
+            </div>
+            <header>
+                <div class="header1">
+                    <nav class="header1__inner">
+                        <div class="iconwrap">
+                            <i class="bx bxs-user-circle"></i>
+                            <i class="bx bx-search"></i>
+                        </div>
+                        <div class="logo">
+                            <a href="">
+                                <h1 id="logotitle">J.HEEDO</h1>
+                            </a>
+                        </div>
+                        <div class="changeSex">
+                            <span>FOR MEN</span>
+                            <a href="">
+                                <i class="bx bx-chevron-right"></i>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header2">
+                    <nav class="header2__inner">
+                        <div class="category-wrap">
+                            <span  data-key="category">CATEGORY</span>
+                            <i class="bx bx-chevron-down menuarrow"></i>
+                        </div>
+                        <ul>
+                            <li data-key="navMenu00">NEW 7%</li>
+                            <li data-key="navMenu01">BEST 50</li>
+                            <li data-key="navMenu02">BLACK FRIDAY ~80%</li>
+                            <li data-key="navMenu03" >CASHMERE</li>
+                            <li data-key="navMenu04">SPECIALS</li>
+                            <li data-key="navMenu05">1 + 1</li>
+                        </ul>
+                        <div class="languagewrap">
+                            <span id="english" class="active">EN</span>
+                            <div id="line1"></div>
+                            <span id="korean">KR</span>
+                        </div>
+                    </nav>
+                    <div class="categorynav">
+                        <div class="categorynav_inner"></div>
+                    </div>
+                    <div class="category-section">
+                        <nav class = "category-info">
+                            <div class="category-info-inner">
+                                <div class="arrivalwrap">
+                                    <div class="wrap1">
+                                        <div class="nav-menu arriver-discover">
+                                            <a href="#"><b>DISCOVER</b></a>
+                                            <div class="nav-menu-category">
+                                                <a href=""><span data-key="DISCOVER1">New 7%</span></a>
+                                                <a href=""><span data-key="DISCOVER2">Best 50</span></a>
+                                                <a href=""><span data-key="DISCOVER3">Black Friday ~80% OFF</span></a>
+                                                <a href=""><span data-key="DISCOVER4" class="preview">Cashmere</span></a>
+                                                <a href=""><span data-key="DISCOVER5">Specials</span></a>
+                                                <a href=""><span data-key="DISCOVER6">1 + 1</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="nav-menu arriver-moreSizes">
+                                            <a href="#"><b>MORE SIZES</b></a>
+                                            <div class="nav-menu-category">
+                                                <a href=""><span data-key="MORESIZE1" class="preview">Petites</span></a>
+                                                <a href=""><span data-key="MORESIZE2" class="preview">Tall</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-menu arriver-womansClothing">
+                                        <a href="#"><b>WOMAN'S CLOTHING</b></a>
+                                        <div class="nav-menu-category">
+                                            <a href=""><span  data-key="WOMANCLOTHING1" class="preview">Dresses & Jumpsuits</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING2" class="preview">Sweaters</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING3" class="preview">Tops</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING4" class="preview">Blouses</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING5" class="preview">Pants</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING6" class="preview">Jeans</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING7" class="preview">Coats & Jackets</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING8" class="preview">Blazers</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING9" class="preview">Suits</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING10" class="preview">Skirts & Shorts</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING11" class="preview">T-shirts</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING12" class="preview">Shirting</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING13" class="preview">Two-Piece Dressing</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING14" class="preview">Vests</span></a>
+                                            <a href=""><span  data-key="WOMANCLOTHING15" >View All</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="nav-menu arriver-ShoesandAccessories">
+                                        <a href="#"><b>SHOES & ACCESSORIES</b></a>
+                                        <div class="nav-menu-category">
+                                            <a href=""><span  data-key="SHOESACCESSORIES1" class="preview">Jewely</span></a>
+                                            <a href=""><span  data-key="SHOESACCESSORIES2" class="preview">Winter Accessories</span></a>
+                                            <a href=""><span  data-key="SHOESACCESSORIES3" class="preview">Shoes</span></a>
+                                            <a href=""><span  data-key="SHOESACCESSORIES4" class="preview">Bags</span></a>
+                                            <a href=""><span  data-key="SHOESACCESSORIES5" class="preview">Belts</span></a>
+                                            <a href=""><span  data-key="SHOESACCESSORIES6" class="preview">Scarves</span></a>
+                                            <a href=""><span  data-key="SHOESACCESSORIES7" class="preview">Gloves</span></a>
+                                            <a href=""><span  data-key="SHOESACCESSORIES8" class="preview">Hats</span></a>
+                                            <a href=""><span  data-key="SHOESACCESSORIES9" class="preview">Socks</span></a>
+                                            <a href=""><span  data-key="SHOESACCESSORIES10" class="preview">Sunglasses</span></a>
+                                            <a href=""><span  data-key="SHOESACCESSORIES11">View All Accessories</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="communitywrap">
+                                    <a href=""><b>COMMUNITY</b></a>
+                                    <div class="commnity-nav">
+                                        <a href=""><span data-key="COMMUNITY1">Events</span></a>
+                                        <a href=""><span data-key="COMMUNITY2">Notice</span></a>
+                                        <a href=""><span data-key="COMMUNITY3">Reviwes</span></a>
+                                        <a href=""><span data-key="COMMUNITY4">SNS</span></a>
+                                        <a href=""><span data-key="COMMUNITY5">Help</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category-info-img">
+                                <div class="category-info-imgwrap">
+                                    <img src="../img/landing-woman.jpg" alt="navimg" id="categorynavimg">
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section class="banner__section section1">
+                    <div class="swipe_container mySwiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="../img/banner/banner0eng.png" alt="banner0" class="bannerimg"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../img/banner/banner1eng.png" alt="banner1" class="bannerimg"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../img/banner/banner2eng.png" alt="banner2" class="bannerimg"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../img/banner/banner3eng.png" alt="banner3" class="bannerimg"/>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+                <section class="coupon_section section2">
+                    <div class="section2_container">
+                        <div class="coupon1">
+                            <img src="../img/smallbanner.jpg" alt="coupon1" id="coupon1" />
+                            <div class="coupon1-textwrap">
+                                <span data-key="couponbanner1">Sign in &</span>
+                                <span data-key="couponbanner2">Get a Coupon</span>
+                            </div>
+                        </div>
+                        <div class="coupon2">
+                            <div class="coupon2-imgwrapper">
+                                <img src="../img/hand.png" alt="hand" id="hand" />
+                                <img src="../img/heart2.png" alt="heart" id="heart">
+                                <div class="coupon2-textwrap">
+                                    <span data-key="followbanner1">Follow & Like</span>
+                                    <span data-key="followbanner2">Get 10% OFF</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+                <section class="section3">
+                    <div class="videowrap">
+                        <video autoplay loop muted>
+                            <source src="../video/video2.mp4" alt="video1" />
+                        </video>
+                        <div class="section3__textwrap">
+                            <div class="section3__spanwrap">
+                                <div id="because">
+                                    <span class="sec3_word">B</span>
+                                    <span class="sec3_word">e</span>
+                                    <span class="sec3_word">c</span>
+                                    <span class="sec3_word">a</span>
+                                    <span class="sec3_word">u</span>
+                                    <span class="sec3_word">s</span>
+                                    <span class="sec3_word">e</span>
+                                </div>
+                                <div id="every">
+                                    <span class="sec3_word">e</span>
+                                    <span class="sec3_word">v</span>
+                                    <span class="sec3_word">e</span>
+                                    <span class="sec3_word">r</span>
+                                    <span class="sec3_word">y</span>
+                                </div>
+                                <div id="woman">
+                                    <span class="sec3_word">w</span>
+                                    <span class="sec3_word">o</span>
+                                    <span class="sec3_word">m</span>
+                                    <span class="sec3_word">a</span>
+                                    <span class="sec3_word">n</span>
+                                </div>
+                                <div id="deserves">
+                                    <span class="sec3_word">d</span>
+                                    <span class="sec3_word">e</span>
+                                    <span class="sec3_word">s</span>
+                                    <span class="sec3_word">e</span>
+                                    <span class="sec3_word">r</span>
+                                    <span class="sec3_word">v</span>
+                                    <span class="sec3_word">e</span>
+                                    <span class="sec3_word">s</span>
+                                </div>
+                                <div id="to">
+                                    <span class="sec3_word">t</span>
+                                    <span class="sec3_word">o</span>
+                                </div>
+                                <div id="feel">
+                                    <span class="sec3_word">f</span>
+                                    <span class="sec3_word">e</span>
+                                    <span class="sec3_word">e</span>
+                                    <span class="sec3_word">l</span>
+                                </div>
+                                <div id="special">
+                                    <span class="sec3_word">s</span>
+                                    <span class="sec3_word">p</span>
+                                    <span class="sec3_word">e</span>
+                                    <span class="sec3_word">c</span>
+                                    <span class="sec3_word">i</span>
+                                    <span class="sec3_word">a</span>
+                                    <span class="sec3_word">l</span>
+                                    <span class="sec3_word">.</span>
+                                </div>
+                            </div>
+                            <!-- <h1 id="section3_text">Because every woman deserves to feel special.</h1> -->
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+                <section class="section4">
+                    <div class="section4_sticky_container">
+                        <div class="imagebox">
+                            <div class="imagebox_for_relative">
+                                <img src="../img/newsection.jpg" alt="newsection" id="stickyimg" />
+                                <div class="imagebox_innercontents">
+                                    <div class="imagebox_innertext">
+                                        <h2 data-key="newitemtitle1">NEW ITEM</h2>
+                                        <h2 data-key="newitemtitle2">7% PRICE OFF</h2>
+                                    </div>
+                                    <button type="button">VIEW MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section4_item_container">
+                        <div class="newitem_container">
+                            <div class="newitem newitem1">
+                                <img src="../img/newitems/1.jpg" alt="item1" />
+                                <div class="newitem_textbox newitem_textbox1">
+                                    <p>Lightweight Ponte Boat-Neck Top</p>
+                                    <div class="newitemprice">
+                                        <span>$220.00</span>
+                                        <strong>$204.60</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newitem newitem2">
+                                <img src="../img/newitems/5.jpg" alt="item2" />
+                                <div class="newitem_textbox newitem_textbox2">
+                                    <p>Georgette Cross-Tie Trapeze Top</p>
+                                    <div class="newitemprice">
+                                        <span>$140.00</span>
+                                        <strong>$130.20</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newitem newitem3">
+                                <img src="../img/newitems/17.jpg" alt="item3" />
+                                <div class="newitem_textbox newitem_textbox3">
+                                    <p>High-Rise Modern Straight Siena Italian Wool Pant</p>
+                                    <div class="newitemprice">
+                                        <span>$150.00</span>
+                                        <strong>$139.50</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newitem newitem4">
+                                <img src="../img/newitems/3.jpg" alt="item4" />
+                                <div class="newitem_textbox newitem_textbox4">
+                                    <p>Wide Ribbed Draped Top</p>
+                                    <div class="newitemprice">
+                                        <span>$70.00</span>
+                                        <strong>$65.10</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newitem newitem5">
+                                <img src="../img/newitems/6.jpg" alt="item5" />
+                                <div class="newitem_textbox newitem_textbox5">
+                                    <p>LSUPIMA® Crew-Neck sweat T-Shirt</p>
+                                    <div class="newitemprice">
+                                        <span>$90.00</span>
+                                        <strong>$83.70</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newitem newitem6">
+                                <img src="../img/newitems/18.jpg" alt="item6" />
+                                <div class="newitem_textbox newitem_textbox6">
+                                    <p>Slim Italian Satin Blazer</p>
+                                    <div class="newitemprice">
+                                        <span>$280.00</span>
+                                        <strong>$260.40</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newitem newitem7">
+                                <img src="../img/newitems/11.jpg" alt="item7" />
+                                <div class="newitem_textbox newitem_textbox7">
+                                    <p>Crop Flare Everywhere Ponte Pant</p>
+                                    <div class="newitemprice">
+                                        <span>$114.00</span>
+                                        <strong>$106.02</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newitem newitem8">
+                                <img src="../img/newitems/12.jpg" alt="item7" />
+                                <div class="newitem_textbox newitem_textbox8">
+                                    <p>Ribbed Merino Cardigan</p>
+                                    <div class="newitemprice">
+                                        <span>$140.00</span>
+                                        <strong>$130.20</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newitem newitem9">
+                                <img src="../img/newitems/13.jpg" alt="item9" />
+                                <div class="newitem_textbox newitem_textbox9">
+                                    <p>Flare Everywhere Ponte Pant</p>
+                                    <div class="newitemprice">
+                                        <span>$100.00</span>
+                                        <strong>$93.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newitem newitem10">
+                                <img src="../img/newitems/14.jpg" alt="item10" />
+                                <div class="newitem_textbox newitem_textbox10">
+                                    <p>Everywhere Ponte Blazer</p>
+                                    <div class="newitemprice">
+                                        <span>$200.00</span>
+                                        <strong>$186.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newitem newitem11">
+                                <img src="../img/newitems/15.jpg" alt="item11" />
+                                <div class="newitem_textbox newitem_textbox11">
+                                    <p>LSUPIMA® Crew-Neck sweat T-Shirt</p>
+                                    <div class="newitemprice">
+                                        <span>$90.00</span>
+                                        <strong>$83.70</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newitem newitem12">
+                                <img src="../img/newitems/16.jpg" alt="item12" />
+                                <div class="newitem_textbox newitem_textbox12">
+                                    <p>Wide Ribbed Draped Top</p>
+                                    <div class="newitemprice">
+                                        <span>$70.00</span>
+                                        <strong>$65.10</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section4_middle_point">
+                            <div class="section4_middle_blackfridaybanner">
+                                <a href="">
+                                    <div class="section4_blackimgwrap">
+                                        <img src="../img/blackfridaybanner.jpg" alt="blackfriday_banner" />
+                                        <div class="sec4_bf_textwrap">
+                                            <div class="sec4_bf_spanwrap1">
+                                                <div id="sec4-save">
+                                                    <span>S</span>
+                                                    <span>a</span>
+                                                    <span>v</span>
+                                                    <span>e</span>
+                                                </div>
+                                                <div id="sec4-big">
+                                                    <span>B</span>
+                                                    <span>i</span>
+                                                    <span>g</span>
+                                                </div>
+                                                <div id="sec4-this">
+                                                    <span>T</span>
+                                                    <span>h</span>
+                                                    <span>i</span>
+                                                    <span>s</span>
+                                                </div>
+                                                <div id="sec4-black">
+                                                    <span>B</span>
+                                                    <span>l</span>
+                                                    <span>a</span>
+                                                    <span>c</span>
+                                                    <span>k</span>
+                                                </div>
+                                                <div id="sec4-friday">
+                                                    <span>F</span>
+                                                    <span>r</span>
+                                                    <span>i</span>
+                                                    <span>d</span>
+                                                    <span>a</span>
+                                                    <span>y</span>
+                                                </div>
+                                            </div>
+                                            <div class="sec4_bf_spanwrap2">
+                                                <div>
+                                                    <span>U</span>
+                                                    <span>p</span>
+                                                </div>
+                                                <div>
+                                                    <span>T</span>
+                                                    <span>o</span>
+                                                </div>
+                                                <div>
+                                                    <span>8</span>
+                                                    <span>0</span>
+                                                    <span>%</span>
+                                                </div>
+                                                <div>
+                                                    <span>O</span>
+                                                    <span>f</span>
+                                                    <span>f</span>
+                                                    <span>!</span>
+                                                </div>
+                                            </div>
+                                            <!-- <span>Up to 80% Off!</span> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section class="section5">
+                    <div class="hotitem_container">
+                        <div class="hot_grid_container">
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/1.jpg" alt="hotitem1" />
+                                <div class="hotitem_textbox hotitem_textbox1">
+                                    <p>Lightweight Ponte Boat-Neck Top</p>
+                                    <div class="hotitemprice">
+                                        <span>$220.00</span>
+                                        <strong>$110.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/2.jpg" alt="hotitem2" />
+                                <div class="hotitem_textbox hotitem_textbox2">
+                                    <p>Lightweight Ponte Boat-Neck Top</p>
+                                    <div class="hotitemprice">
+                                        <span>$220.00</span>
+                                        <strong>$110.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/3.jpg" alt="hotitem3" />
+                                <div class="hotitem_textbox hotitem_textbox3">
+                                    <p>Wide Ribbed Draped Top</p>
+                                    <div class="hotitemprice">
+                                        <span>$70.00</span>
+                                        <strong>$35.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/4.jpg" alt="hotitem4" />
+                                <div class="hotitem_textbox hotitem_textbox4">
+                                    <p>LSUPIMA® Crew-Neck sweat T-Shirt</p>
+                                    <div class="hotitemprice">
+                                        <span>$90.00</span>
+                                        <strong>$45.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/5.jpg" alt="hotitem5" />
+                                <div class="hotitem_textbox hotitem_textbox5">
+                                    <p>Wide Ribbed Draped Top</p>
+                                    <div class="hotitemprice">
+                                        <span>$70.00</span>
+                                        <strong>$35.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/6.jpg" alt="hotitem6" />
+                                <div class="hotitem_textbox hotitem_textbox6">
+                                    <p>Wide Ribbed Draped Top</p>
+                                    <div class="hotitemprice">
+                                        <span>$70.00</span>
+                                        <strong>$35.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/7.avif" alt="hotitem7" />
+                                <div class="hotitem_textbox hotitem_textbox7">
+                                    <p>Wide Ribbed Draped Top</p>
+                                    <div class="hotitemprice">
+                                        <span>$70.00</span>
+                                        <strong>$35.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/8.avif" alt="hotitem8" />
+                                <div class="hotitem_textbox hotitem_textbox8">
+                                    <p>Wide Ribbed Draped Top</p>
+                                    <div class="hotitemprice">
+                                        <span>$70.00</span>
+                                        <strong>$35.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/9.jpg" alt="hotitem9" />
+                                <div class="hotitem_textbox hotitem_textbox9">
+                                    <p>Wide Ribbed Draped Top</p>
+                                    <div class="hotitemprice">
+                                        <span>$70.00</span>
+                                        <strong>$35.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/10.jpg" alt="hotitem10" />
+                                <div class="hotitem_textbox hotitem_textbox10">
+                                    <p>Flare Everywhere Ponte Pant</p>
+                                    <div class="hotitemprice">
+                                        <span>$100.00</span>
+                                        <strong>$50.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/11.jpg" alt="hotitem11" />
+                                <div class="hotitem_textbox hotitem_textbox11">
+                                    <p>Wide Ribbed Draped Top</p>
+                                    <div class="hotitemprice">
+                                        <span>$70.00</span>
+                                        <strong>$35.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotitem hotitem1">
+                                <img src="../img/hotitems/12.jpg" alt="hotitem12" />
+                                <div class="hotitem_textbox hotitem_textbox12">
+                                    <p>Wide Ribbed Draped Top</p>
+                                    <div class="hotitemprice">
+                                        <span>$70.00</span>
+                                        <strong>$35.00</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec5_sticky_container">
+                        <div class="sec5_sticky_image">
+                            <div class="sec5_sticky_relative">
+                                <img src="../img/newsection2.jpg" alt="stickyimg2" />
+                                <div class="sec5_sticky_contents">
+                                    <div class="sec5_textwrap">
+                                        <h2 data-key="hotitemtitle1">HOT ITEMS</>
+                                        <h2 data-key="hotitemtitle2">~ 50% PRICE OFF</h>
+                                    </div>
+                                    <button type="button">VIEW MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+                <section class="section6">
+                    <section class="cashmere_container">
+                        <div class="cashmere_inner">
+                            <div class="cashmere_contents">
+                                <div class="cashmere_textwrap">
+                                    <h2 data-key="cashmere1">CASHMERE</h2>
+                                    <p data-key="cashmere2">100% PREMIUM</p>
+                                    <p data-key="cashmere3">WOOL</p>
+                                    <p data-key="cashmere4">Daily look for Mania</p>
+                                </div>
+                                <button type="button">VIEW MORE</button>
+                            </div>
+                            <div class="cashmere_swiper cashmereSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="cashmere_item cashmere-item1 swiper-slide">
+                                        <div class="cashmere_image">
+                                            <img src="../img/cashmere/1.webp" alt="cashmere-item1" />
+                                        </div>
+                                        <div class="cashmere_item_context">
+                                            <p>Cashmere Mockneck Sweater</p>
+                                            <strong>$220.00</strong>
+                                        </div>
+                                    </div>
+                                    <div class="cashmere_item cashmere-item2 swiper-slide">
+                                        <div class="cashmere_image">
+                                            <img src="../img/cashmere/2.webp" alt="cashmere-item2" />
+                                        </div>
+                                        <div class="cashmere_item_context">
+                                            <p>Off-The-Shoulder Cashmere Sweater</p>
+                                            <strong>$348.00</strong>
+                                        </div>
+                                    </div>
+                                    <div class="cashmere_item cashmere-item3 swiper-slide">
+                                        <div class="cashmere_image">
+                                            <img src="../img/cashmere/3.webp" alt="cashmere-item3" />
+                                        </div>
+                                        <div class="cashmere_item_context">
+                                            <p>Cashmere Cable-Knit Sweater</p>
+                                            <strong>$528.00</strong>
+                                        </div>
+                                    </div>
+                                    <div class="cashmere_item cashmere-item4 swiper-slide">
+                                        <div class="cashmere_image">
+                                            <img src="../img/cashmere/4.avif" alt="cashmere-item4" />
+                                        </div>
+                                        <div class="cashmere_item_context">
+                                            <p>Cashmere Mockneck Sweater</p>
+                                            <strong>$220.00</strong>
+                                        </div>
+                                    </div>
+                                    <div class="cashmere_item cashmere-item5 swiper-slide">
+                                        <div class="cashmere_image">
+                                            <img src="../img/cashmere/5.avif" alt="cashmere-item5" />
+                                        </div>
+                                        <div class="cashmere_item_context">
+                                            <p>Cashmere Mockneck Sweater</p>
+                                            <strong>$220.00</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="greet_container">
+                        <div class="spanwrap1">
+                            <span id="introtext1" data-key="outromsg1">DO MY BEST ALWAYS.... BECOME TO COOL PUBLISHER</span>
+                        </div>
+                        <div class="spanwrap2">
+                            <span id="introtext2" data-key="outromsg2">J.HEEDO, the name of the site I am currently developing, is a one-person shopping mall brand that prioritizes customer
+                                satisfaction and ease of use above all else. We are committed to always doing our best to produce, package, and deliver clean
+                                and sophisticated clothing that our customers can wear with confidence.</span>
+                        </div>
+                        <div class="spanwrap3">
+                            <span id="introtext3" data-key="outromsg3">
+                                Our goal is to create a brand that customers trust and return to time and time again. We pay meticulous attention to every
+                                detail, from fabric selection to the final touch of packaging, ensuring the highest quality in every product.
+                            </span>
+                        </div>
+                        <div class="imagewrap1">
+                            <img src="../img/introducesection.jpg" alt="yellopicture" id="outroimg1" />
+                        </div>
+                        <div class="imagewrap2">
+                            <img src="../img/intro3.jpg" alt="intro3" id="outroimg2" />
+                        </div>
+                        <div class="imagewrap3">
+                            <img src="../img/intro2.jpg" alt="intro2" id="outroimg3" />
+                        </div>
+                    </section>
+                </section>
+            </main>
+            <footer>
+                <h1>J.HEEDO</h1>
+            </footer>
+        </div>
+        <script src="../lib/jquery-3.7.1.min.js"></script>
+        <script src="https://unpkg.com/lenis@1.1.17/dist/lenis.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../js/language.js"></script>
+    </body>
+</html>

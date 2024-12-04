@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "RalewayRegular";
+    src: url(../assets/font/Raleway-Regular.ttf);
+}
+
+$font--color--white : #fff;
+$font--size : 1.6rem;
+$image--scale--amount : scale(1.03);
+$transition--default : .3s ease;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: $font--color--white;
+    font-size: $font--size;
+    font-family: "RalewayRegular";
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    .man {
+        width: 50%;
+        overflow: hidden;
+        .man__img_wrap {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            &:hover > img {
+                transform: $image--scale--amount;
+                filter: grayscale(0);
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                filter:grayscale(1);
+                transition: .3s ease-out;
+            }
+            .man_text_wrap {
+                position: absolute;
+                bottom: 30%;
+                left: 50%;
+                transform: translateX(-50%);
+                #man-text{
+                    position: relative;
+                    transition: $transition--default;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        height: 1px;
+                        width: 0%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        transition: $transition--default;
+                        background-color: $font--color--white;
+                        z-index: -1;
+                    }
+                    &:hover::before {
+                        width: 100%;
+                    }
+                    &:hover {
+                        letter-spacing: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .woman {
+        width: 50%;
+        overflow: hidden;
+        .woman__img_wrap {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            &:hover > img {
+                transform: $image--scale--amount;
+                filter: grayscale(0);
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                filter:grayscale(1);
+                transition: $transition--default;
+            }
+            .woman_text_wrap {
+                position: absolute;
+                bottom: 30%;
+                left: 50%;
+                transform: translateX(-50%);
+                #woman-text {
+                    position: relative;
+                    transition: $transition--default;
+                    &:hover::before{
+                        width: 100%;
+                    }
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transition: $transition--default;
+                        transform: translateX(-50%);
+                        width: 0%;
+                        height: 1px;
+                        background-color: $font--color--white;
+                    }
+                    &:hover{
+                        letter-spacing: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
