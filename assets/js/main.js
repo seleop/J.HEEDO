@@ -304,7 +304,7 @@ previewImage();
 ScrollTrigger.create({
     trigger: ".section5", // 고정할 섹션
     start: "bottom bottom-=100",
-    end: "+=200%",
+    end: "+=300%",
     pin: true, // section1을 고정
     pinSpacing: false, // 고정된 동안 다른 섹션의 공간 유지
 });
